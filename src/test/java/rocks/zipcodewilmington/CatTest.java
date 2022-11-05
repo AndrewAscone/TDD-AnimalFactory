@@ -42,7 +42,7 @@ public class CatTest {
         Assert.assertEquals(givenId, retrievedId);
     }
     @Test
-    public void setName(){
+    public void setNameTest(){
         //Given (cat data)
         String givenName = "Zula";
         Date givenBirthDate = new Date();
@@ -62,7 +62,7 @@ public class CatTest {
     }
 
     @Test
-    public void setBirthDate(){
+    public void setBirthDateTest(){
         //Given (cat data)
         String givenName = "Zula";
         Date givenBirthDate = new Date();
