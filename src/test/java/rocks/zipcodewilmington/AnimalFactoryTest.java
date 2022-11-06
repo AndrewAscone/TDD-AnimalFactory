@@ -54,10 +54,10 @@ public class AnimalFactoryTest {
 
     @Test
     public void testCreateCat(){
-        //Given (a mew instance of the Animal Factory is created)
+        //Given (a new instance of the Animal Factory is created)
         AnimalFactory test = new AnimalFactory();
 
-        //When (a new dog is created from the Animal Factory)
+        //When (a new cat is created from the Animal Factory)
         Cat testCat = test.createCat("Striper", null);
         CatHouse.add(testCat);
 
