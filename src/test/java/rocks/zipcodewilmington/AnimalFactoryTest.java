@@ -27,12 +27,12 @@ public class AnimalFactoryTest {
         //When (a new dog is created from the Animal Factory)
         Dog testDog = test.createDog("Milo", null);
         DogHouse.add(testDog);
-        System.out.println(testDog.getId());
+//        System.out.println(testDog.getId());
 
-        Dog dog2 = test.createDog("Dog", null);
-
-        DogHouse.add(dog2);
-        System.out.println(dog2.getId());
+//        Dog dog2 = test.createDog("Dog", null);
+//
+//        DogHouse.add(dog2);
+//        System.out.println(dog2.getId());
 
 
 
